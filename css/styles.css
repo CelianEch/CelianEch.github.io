@@ -1,67 +1,22 @@
-body{
-    background-color: rgb(85, 85, 223);
-    margin: 0 auto;
-    line-height: 20px;
-}
-header{
-    
+fieldset {
+    font-size: 1rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
+  }
+
+fieldset case {
+    text-decoration: none;
+    color: black;
+    padding: 0.25rem 1rem;
+    font-size: 1rem;
+    font-weight: normal;
 }
 
-div.title-box{
-    background-color: white;
-    position: absolute;
-    z-index: 999;
-    padding: 20px;
-}
-
-header h1{
-    font-size: 80 px;
-}
-
-header p{
-    font-size: 25px;
-}
-
-header h1,p{
-        font-family: "Kenia", cursive;
-      
-}
-
-div.slides{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: calc(500px*3);
-    animation: glisse 15s infinite ease;
-    height: 720px;
-}
-
-@keyframes glisse{
-    0%{
-        transform: translateX(0)
-    }
-    10%{
-        transform: translateX(0)
-    }
-    33%{
-        transform: translateX(-500px)
-    }
-    66%{
-        transform: translateX(-500px)
-    }
-    100%{
-        transform: translateX(0)
-    }
-}
-
-.slider{
-    overflow: hidden;
-}
-
-.slide{
-    opacity: 0.5;
+fieldset a {
+    text-decoration: none;
+    color: black;
+    padding: 0.25rem 1rem;
+    font-size: 1rem;
+    font-weight: normal;
 }
