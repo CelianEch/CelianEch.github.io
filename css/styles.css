@@ -161,10 +161,6 @@ section5 div1 img {
     margin-left: 2rem;
 }
 
-html {
-    font-size: 5rem;
-}
-
 section3 {
     display: flex;
     justify-content: space-around;
