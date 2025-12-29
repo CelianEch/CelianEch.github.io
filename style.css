@@ -1,0 +1,160 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0.5rem 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2a5298;
+    font-weight: 600;
+    padding: 0.5rem;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+    color: #1e3c72;
+    border-bottom: 2px solid #1e3c72;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    color: #1e3c72;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1e3c72;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0.25rem 1rem;
+    border-radius: 10000px;
+    border: 2px solid gray;
+}
+
+.two-columns {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.two-columns .text {
+    flex: 1;
+}
+
+.two-columns .image1 {
+    flex: 1;
+    text-align: right;
+}
+
+.two-columns .image2 {
+    flex: 1;
+    text-align: right;
+}
+
+.image1 img {
+    border-radius: 50%;
+}
+
+.image2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.centered a {
+    margin: 1rem;
+}
